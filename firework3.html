@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>烟花特效3</title>
+
+<style>
+*{
+	padding: 0;
+	margin: 0;
+}
+</style>
+
+</head>
+<body>
+<div id="example"></div>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/firework.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#example").fireworks({
+			width: "100%",
+			height: "100%"
+		});
+	});
+</script>
+
+</body>
+</html>
